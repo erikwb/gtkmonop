@@ -1,0 +1,195 @@
+gtkmonop (0.3.0) unstable; urgency=low
+
+  * Release!
+  * Fixed up tons of little bugs
+  * Overhauled UI
+  * Requires libgmonopd, can now start servers.
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Sun, 28 Oct 2001 14:13:13 -0500
+
+gtkmonop (0.3-pre09032001) unstable; urgency=low
+
+  * Overhauled pixmap loading/use, much more generic and 'nice' now
+  * Transparency in pixmaps supported
+  * Finished up 'gradient' theme, added to repository, made default for now
+  * Double-buffered the board window, eliminated a lot of needless redraw
+  * Fixed a few memory leaks
+  * Redefined theme format a bit
+  * Removed ugly GDK right-click hack, dunno why it works now :p
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Mon, 03 Sep 2001 18:53:26 -0400
+
+gtkmonop (0.3-pre08312001) unstable; urgency=low
+
+  * THEMES :p
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Fri, 31 Aug 2001 21:46:50 -0400
+
+gtkmonop (0.3-pre08202001) unstable; urgency=low
+
+  * cleaned up pixmap handling, no more GDK errors
+  * cleaned up button destruction, no more GTK errors
+  * added '--showtraffic' to display network traffic; off by default now
+  * fixed assetbox right-click-on-non-estate bug
+  * removed forced max_group_id of 8 as monopd handles this now
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Mon, 20 Aug 2001 15:58:35 -0400
+
+gtkmonop (0.3-pre08192001) unstable; urgency=low
+
+  * Implemented card view
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Sun, 19 Aug 2001 03:46:37 -0400
+
+gtkmonop (0.3-pre08132001) unstable; urgency=low
+
+  * fixed up a color bug, changed debian icon xpm
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Mon, 13 Aug 2001 20:06:17 -0400
+
+gtkmonop (0.3-pre08092001) unstable; urgency=low
+
+  * Estate property dialog added to estate right-click menu
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Fri, 10 Aug 2001 02:16:07 -0400
+
+gtkmonop (0.3-pre08082001) unstable; urgency=low
+
+  * Asset box redone (ripped it from the trade box)
+  * Now you can tell who you are, whose turn it is, and who has what
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Wed, 08 Aug 2001 02:16:52 -0400
+
+gtkmonop (0.3-pre08072001) unstable; urgency=low
+
+  * Right click menu on GDK window works great now, ugly hack tho
+  * Prefs window
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Tue, 07 Aug 2001 20:41:48 -0400
+
+gtkmonop (0.3-pre08062001) unstable; urgency=low
+
+  * Dynamic board loading
+  * Right click on estates on the board for an estate popup menu
+  * Fixed that annoying network message bug
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Tue, 07 Aug 2001 20:06:24 -0400
+
+gtkmonop (0.3-pre08062001) unstable; urgency=low
+
+  * Dynamic board loading
+  * Right click on estates on the board for an estate popup menu
+  * Fixed that annoying network message bug
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Mon, 06 Aug 2001 19:30:16 -0400
+
+gtkmonop (0.3-pre08062001) unstable; urgency=low
+
+  * Screwed the imageloading in the name of progress.
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Mon, 06 Aug 2001 15:50:06 -0400
+
+gtkmonop (0.2-pre08022001) testing; urgency=low
+
+  * Label colorchanging for the GtkNotebook for auctions and trades
+  * Corrected some protocol changes (.e->.E, .Tc->.Tr)
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Thu, 02 Aug 2001 16:16:14 -0400
+
+gtkmonop (0.2-pre08012001) testing; urgency=low
+
+  * Fruity little icons for tabs, some bugfixes.
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Wed, 01 Aug 2001 00:00:49 -0400
+
+gtkmonop (0.2-pre07312001) testing; urgency=low
+
+  * Fruity little icons for tabs, some bugfixes.
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Tue, 31 Jul 2001 22:40:11 -0400
+
+gtkmonop (0.2-pre07312001) testing; urgency=low
+
+  * auctioning finished!
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Tue, 31 Jul 2001 05:13:20 +0500
+
+gtkmonop (0.2-pre07302001) testing; urgency=low
+
+  * auctioning started, titledeeds show on the main board now :p
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Mon, 30 Jul 2001 19:10:35 +0500
+
+gtkmonop (0.2-pre07282001) testing; urgency=low
+
+  * trading, mortgaging, houses FULLY FUNCTIONAL, woop :p
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Sat, 28 Jul 2001 23:41:38 +0500
+
+gtkmonop (0.2-pre07272001) testing; urgency=low
+
+  * trading fully functional except for money
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Fri, 27 Jul 2001 23:57:43 +0500
+
+gtkmonop (0.2-pre07252001) testing; urgency=low
+
+  * lots of popup menus now; trading is almost fully functional
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Wed, 25 Jul 2001 23:53:06 +0500
+
+gtkmonop (0.2-pre07242001) testing; urgency=low
+
+  * Removed GLADE stuff (that was freaking messy)
+  * Added 'connecting' dialog
+  * Fixed a segfault
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Tue, 24 Jul 2001 15:56:08 +0500
+
+gtkmonop (0.2-pre07182001) testing; urgency=low
+
+  * Fixed weird GtkCTree segfault
+  * Trade tab is dynamically created and destroyed now
+  
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Wed, 18 Jul 2001 12:31:03 +0500
+
+gtkmonop (0.2-pre07172001) testing; urgency=low
+
+  * Deleting main window now kills program.
+  * Changed all of the GtkTrees to GtkCTrees, we've got a segfault with trading for some reason though.
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Tue, 17 Jul 2001 05:42:32 +0500
+
+gtkmonop (0.2-pre07162001) testing; urgency=low
+
+  * Added a cool trade display, you've got to type in the dot-commands at the moment but it should get better with time :p
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Mon, 16 Jul 2001 12:08:00 +0500
+
+gtkmonop (0.2-pre07122001) testing; urgency=low
+
+  * Added a cool asset display, icons for deed cards.
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Thu, 12 Jul 2001 02:19:55 +0500
+
+gtkmonop (0.2-pre07112001) testing; urgency=low
+
+  * Split chatbox and messagebox, some bugfixes.
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Wed, 11 Jul 2001 15:56:52 +0500
+
+gtkmonop (0.2-pre07102001) testing; urgency=low
+
+  * Fixed up house display, <newturn/> highlights, a typo.
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Thu, 10 Jul 2001 14:09:45 +0500
+
+gtkmonop (0.1) testing; urgency=low
+
+  * Initial Release.
+
+ -- Erik Bourget <ebourg@po-box.mcgill.ca>  Thu, 5 Jul 2001 22:16:13 +0500
+
+Local variables:
+mode: debian-changelog
+End:

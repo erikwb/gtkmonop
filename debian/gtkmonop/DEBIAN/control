@@ -1,0 +1,12 @@
+Package: gtkmonop
+Version: 0.3.0
+Section: games
+Priority: optional
+Architecture: i386
+Depends: libc6 (>= 2.2.4-2), libgdk-pixbuf2 (>= 0.11.0-2), libglib1.2 (>= 1.2.0), libgtk1.2 (>= 1.2.10-2.1), libxml2 (>= 2.4.0-1), xlibs (>> 4.1.0), libgmonopd
+Installed-Size: 624
+Maintainer: Erik Bourget <ebourg@po-box.mcgill.ca>
+Description: multiplayer monopd client
+ gtkmonop is a client for Rob Kaper's monopd daemon, a multiplayer
+ implementation of Monopoly.  You'll need monopd to create your own
+ games.

@@ -1,0 +1,179 @@
+10-26-2001: (odinhuntr) "Start Server Commit"
+-----------
+
+  * libgmonopd support! :)
+  * added tax and jail images to 'gradient'
+  * fixed a large-scale bug where i was freeing memory i hadn't malloced
+	during the initial pixmap initialization ... graphics storage totally
+	redone AGAIN.  Maybe I got it right.
+  
+10-24-2001: (odinhuntr)
+-----------
+
+  * Fixed up resizing
+  * Updated for gmonopd
+  * Tons of other little stuff
+
+09-08-2001: (odinhuntr)
+-----------
+
+  * Figured out how those GTK+ chaps do networking 'properly', gtkmonop is now one process :p
+  * Fixed house display oddities
+  * Rechecked in .png images correctly :p
+
+09-04-2001: (odinhuntr) "Fast Scaling Commit"
+-----------
+
+  * Fast scaling now.  Probably takes more memory.
+  * I had to totally redo the way graphics are done :p at least it's a little more generic now, eh
+  * Slightly redefined theme format (corners.png is now only one corner)
+
+09-04-2001: (odinhuntr)
+-----------
+
+  * Scaling!  ph34r!  Really slow now though :p
+  * More stuff added to gradient theme
+  
+09-03-2001: (odinhuntr) "Pretty Graphics Commit"
+-----------
+
+  * Overhauled pixmap loading/use, much more generic and 'nice' now
+  * Transparency in pixmaps supported
+  * Finished up 'gradient' theme, added to repository, made default for now
+  * Double-buffered the board window, eliminated a lot of needless redraw
+  * Fixed a few memory leaks
+  * Redefined theme format a bit
+  * Removed ugly GDK right-click hack, dunno why it works now :p
+	
+08-31-2001: (odinhuntr)
+-----------
+
+  * THEMES :p
+
+08-20-2001: (odinhuntr)
+-----------
+
+  * cleaned up pixmap handling, no more GDK errors
+  * cleaned up button destruction, no more GTK errors
+  * added '--showtraffic' to display network traffic; off by default now
+  * fixed assetbox right-click-on-non-estate bug
+  * removed forced max_group_id of 8 as monopd handles this now
+
+08-19-2001: (odinhuntr)
+-----------
+
+  * Implemented card view
+
+08-15-2001: (odinhuntr)
+-----------
+
+  * Implemented commandlist buttonbox display.
+  
+08-13-2001: (odinhuntr)
+-----------
+
+  * fixed up a color bug, changed debian icon xpm
+
+08-09-2001: (odinhuntr)
+-----------
+
+  * Estate property dialog added to estate right-click menu
+
+08-08-2001: (odinhuntr)
+-----------
+
+  * Asset box redone (ripped it from the trade box)
+  * Now you can tell who you are, whose turn it is, and who has what
+    icon :p
+
+08-07-2001: (odinhuntr)
+-----------
+
+  * Right click menu on GDK window works great now, ugly hack tho
+  * Prefs window
+  
+08-06-2001: (odinhuntr)
+-----------
+
+  * Dynamic board loading
+  * Right click on estates on the board for an estate popup menu
+  * Fixed that annoying network message bug
+
+08-06-2001: (odinhuntr)
+-----------
+  * Screwed the imageloading in the name of progress.
+
+08-02-2001: (odinhuntr)
+-----------
+  * Label colorchanging for the GtkNotebook for auctions and trades
+  * Corrected some protocol changes (.e->.E, .Tc->.Tr)
+
+08-01-2001: (odinhuntr)
+-----------
+
+  * Fruity little icons for tabs, some bugfixes.
+
+07-31-2001: (odinhuntr)
+-----------
+
+  * auctioning finished!
+
+07-30-2001: (odinhuntr)
+-----------
+
+  * auctioning started, titledeeds show on the main board now :p
+
+07-28-2001: (odinhuntr)
+-----------
+
+  * trading, mortgaging, houses FULLY FUNCTIONAL, woop :p
+
+07-27-2001: (odinhuntr)
+-----------
+
+  * trading fully functional except for money
+
+07-25-2001: (odinhuntr)
+-----------
+
+  * lots of popup menus now; trading is almost fully functional
+
+07-24-2001: (odinhuntr)
+-----------
+
+  * Removed GLADE stuff (that was freaking messy)
+  * Added 'connecting' dialog
+  * Fixed a segfault
+
+07-18-2001: (odinhuntr)
+-----------
+
+  * Fixed weird GtkCTree segfault
+  * Trade tab is dynamically created and destroyed now
+
+07-17-2001: (odinhuntr)
+-----------
+
+  * Deleting main window now kills program.
+  * Changed all of the GtkTrees to GtkCTrees, we've got a segfault with trading for some reason though.
+
+07-16-2001: (odinhuntr)
+-----------
+
+  * Added a cool trade display, you've got to type in the dot-commands at the moment but it should get better with time :p
+
+07-12-2001: (odinhuntr)
+-----------
+
+  * Added a cool asset display, icons for deed cards.
+
+07-11-2001: (odinhuntr)
+-----------
+
+  * Split chatbox and messagebox, some bugfixes.
+
+07-10-2001: (odinhuntr)
+-----------
+
+  * Fixed up house display, <newturn/> highlights, a typo.
+  * Initial Release.

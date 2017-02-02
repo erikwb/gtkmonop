@@ -1,0 +1,48 @@
+gtkmonop TODO
+
+- not implemented, low priority
++ not implemented, medium priority
+! not implemented, high priority
+^ partially implemented
+? bug is fixed, not confirmed during gameplay yet
+v implemented
+V implemented and confirmed validity with daemon
+
+Bugfixes
+--------
+
+- highlight all tabs on change
+  - Auction tab
+  - remove asset highlight on money change
+! fill in non-board pixmaps on theme change
+! reset Most Stuff on disconnect or game exit!
+
+Optimizations
+-------------
+
+! free() themes when the prefs dialog closes!!
++ scan for other leaks
+V fix up window resizing, table stuff
+
+For 0.3.0
+---------
+
+! integrate gmonopd library! :)
+V get rid of all of those stupid base_coords arrays
+V theme loading
+- theme change should reload pixmaps
+^ fix up preferences dialog
+^ icons for chance/cc/RR/etc
++ income tax: 10% or 200 display
+- deal with game ending
++ allow game configuration before start
+V chance/CC card display
+V add estate info dialog
+
+For 0.4.0
+---------
+
+- deal with monopd save/load
+
+Other
+-----

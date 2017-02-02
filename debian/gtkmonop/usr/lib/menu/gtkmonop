@@ -1,0 +1,3 @@
+?package(gtkmonop):needs=X11 section=Games/Board \
+  title="gtkmonop" command="/usr/games/gtkmonop" \
+  icon=/usr/share/pixmaps/gtkmonop.xpm

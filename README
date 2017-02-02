@@ -1,0 +1,128 @@
+===============================================================================
+gtkmonop v0.3.0(-pre) README                     Mon Sep 07 16:54:21 2001 -0400
+Erik Bourget <ebourg@po-box.mcgill.ca>
+===============================================================================
+
+Contents
+
+	1) Themes
+		i. using themes
+		ii. creating themes
+
+===============================================================================
+1) Themes
+===============================================================================
+
+i. using themes
+---------------
+
+To install a theme, take the theme package and untar it in ~/.gtkmonop/themes.
+
+To install a theme system-wide, untar the theme package in 
+$(PREFIX)/share/gtkmonop/themes, with $(PREFIX) being the directory that
+gtkmonop was configured to install into at compile-time (/usr/local by default,
+/usr if you used a deb or an rpm.)
+
+Once the theme is installed, it should show up in gtkmonop's preferences
+dialog.
+
+ii. creating themes
+-------------------
+
+Creating a gtkmonop theme is fairly straightforward.  Create the following
+images and put them in a directory:
+
+--*--
+gtkmonop-airport-0.png
+gtkmonop-airport-180.png
+gtkmonop-airport-270.png
+gtkmonop-airport-90.png
+
+gtkmonop-chance-0.png
+gtkmonop-chance-180.png
+gtkmonop-chance-270.png
+gtkmonop-chance-90.png
+
+gtkmonop-corners.png
+
+gtkmonop-deed1.png
+gtkmonop-deed2.png
+gtkmonop-deed3.png
+gtkmonop-deed4.png
+gtkmonop-deed5.png
+gtkmonop-deed6.png
+gtkmonop-deed7.png
+gtkmonop-deed8.png
+
+gtkmonop-flag1.png
+gtkmonop-flag2.png
+gtkmonop-flag3.png
+gtkmonop-flag4.png
+gtkmonop-flag5.png
+gtkmonop-flag6.png
+gtkmonop-flag7.png
+gtkmonop-flag8.png
+
+gtkmonop-mflag1.png
+gtkmonop-mflag2.png
+gtkmonop-mflag3.png
+gtkmonop-mflag4.png
+gtkmonop-mflag5.png
+gtkmonop-mflag6.png
+gtkmonop-mflag7.png
+gtkmonop-mflag8.png
+
+gtkmonop-house1.png
+gtkmonop-house2.png
+gtkmonop-house3.png
+gtkmonop-house4.png
+gtkmonop-house5.png
+
+gtkmonop-railroad-0.png
+gtkmonop-railroad-180.png
+gtkmonop-railroad-270.png
+gtkmonop-railroad-90.png
+
+gtkmonop-spaces-0.png
+gtkmonop-spaces-180.png
+gtkmonop-spaces-270.png
+gtkmonop-spaces-90.png
+
+gtkmonop-token1.png
+gtkmonop-token2.png
+gtkmonop-token3.png
+gtkmonop-token4.png
+gtkmonop-token5.png
+gtkmonop-token6.png
+gtkmonop-token7.png
+gtkmonop-token8.png
+--*--
+
+The function of the image is as follows:
+
+gtkmonop-airport-*.png	: airport graphics, rotated
+gtkmonop-cchest-*.png 	: community chest square graphics, rotated
+gtkmonop-chance-*.png 	: chance square graphics, rotated
+gtkmonop-corners.png	: blank squares to display in the corners
+gtkmonop-deed*.png	: estate title deed cards, different for each
+			  estate
+gtkmonop-flag*.png	: used to display estate ownership, different for
+			  each player
+gtkmonop-mflag*.png	: used to display ownership while estate is mortgaged,
+			  different for each player
+gtkmonop-house*.png	: each house can have a different graphic
+gtkmonop-railroad-*.png : railroad graphics, rotated
+gtkmonop-spaces-*.png	: all of the different colored spaces, rotated
+			  Example:
+
+  [gtkmonop-spaces-0.png, asciified]
+	/----\/----\/----\/----\/----\/----\/----\/----\/----\
+	|  0 ||  1 ||  2 ||  3 ||  4 ||  5 ||  6 ||  7 ||  8 |
+	|----||----||----||----||----||----||----||----||----|
+	|    ||    ||    ||    ||    ||    ||    ||    ||    |
+	|    ||    ||    ||    ||    ||    ||    ||    ||    |
+	\----/\----/\----/\----/\----/\----/\----/\----/\----/
+
+			  ... Look at the default theme's files ;-)
+
+gtkmonop-tokens-*.png	: player icons, different for each player
